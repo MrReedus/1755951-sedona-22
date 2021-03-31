@@ -1,12 +1,149 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
+<html class="page" lang="ru">
+
+<head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
+    <title>Седона</title>
+</head>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
+<body class="page__body">
+    <header class="page-header">
+        <a class="page-header__logo">
+            <img src="img/logotype-mobile.svg" width="102" height="84" alt="Седона">
+        </a>
+        <nav class="main-nav">
+            <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+            <div class="main-nav__wrapper">
+                <ul class="main-nav__list site-list">
+                    <li class="site-list__item">
+                        <a>Главная</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="photo.html">Фото и видео</a>
+                    </li>
 
-  </body>
+                    <li class="site-list__item">
+                        <a href="form.html">Форма отзыва</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="#">HTML ACADEMY</a>
+                    </li>
+
+                </ul>
+
+
+            </div>
+
+        </nav>
+    </header>
+    <main class="page-main">
+        <div class="intro">
+            <h1 class="intro__title">СЕДОНА — НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h1>
+        </div>
+        <section class="reasons">
+            <div class="reasons__wrapper">
+                <div class="reasons__caption">
+
+                    <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+                </div>
+
+
+
+
+                <div class="reasons__item reasons-with-image1">
+                    <h3 class="reasons-with-image1__title">НАСТОЯЩИЙ ГОРОДОК</h3>
+                    <!-- ?????-->
+                    <p class="reasons-with-image1__number"> — №1 — </p>
+                    <p class="reasons-with-image1__description">СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+                    <img class="reasons-with-image__reason1" src="img/photo-city.jpg" alt="Фотография мотеля">
+                </div>
+
+                <ul class="reasons-list">
+
+                    <li class="reasons-list__item ">
+                        <img class="reasons-list__image-house" src="img/icon-house.svg" alt="логотип дома">
+                        <h3 class="reasons-list_title">ЖИЛЬЁ</h3>
+
+                        <li class="reasons-list__description">РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ МОТЕЛЕ, ВСЁ КАК В КИНО!</li>
+
+                        <li class="reasons-list__item">
+                            <img class="reasons-list__image-gift" src="img/icon-gift.svg" alt="логотип подарка">
+                            <h3 class="reasons-list_title">СУВЕНИРЫ</h3>
+                            <li class="reasons-list__description">НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО ПРОИЗВОДСТВА!</li>
+                            <li class="reasons-list__item">
+                                <img class="reasons-list__image-food" src="img/icon-burger.svg" alt="логотип бургера">
+                                <h3 class="reasons-list_title">ЕДА</h3>
+                            </li>
+                            <li class="reasons-list__description">ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР, ВЫ НЕ РАОЧАРУЕТЕСЬ!</li>
+                </ul>
+                <div class="reasons__item reasons-with-image2">
+                    <h3 class="reasons-with-image2__title">ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h3>
+                    <p class="reasons-with-image2__number"> — №2 — </p>
+                    <p class="reasons-with-image2__description">ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ ВЫ ОСМЕЛИТЕСЬ, КОНЕЧНО</p>
+                    <img src="img/photo-bridge.jpg" alt="фотография моста">
+                </div>
+
+                <div class="reasons__item">
+                    <h3 class="reasons__title">НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
+                    <p class="reasons__number"> — №3 — </p>
+                    <p class="reasons__description">ВСЕ ИНТЕРЕСНЫЕ МЕСТА НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</p>
+                </div>
+                <div class="reasons__item ">
+                    <h3 class="reasons__title">КРАСИВАЯ ДОРОГА</h3>
+                    <p class="reasons__number"> — №4 — </p>
+                    <p class="reasons__description ">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА СОВСЕМ НЕ СКУЧНО!</p>
+                </div>
+                <div class="reasons__item">
+                    <h3 class="reasons__title">МАЛО ТУРИСТОВ</h3>
+                    <p class="reasons__number"> — №5 — </p>
+                    <p class="reasons__description ">БОЛЬШИНСТВО ЕДЕТ В ГРАНД КАНЬОН И ТОЛПИТСЯ ТАМ</p>
+                </div>
+            </div>
+        </section>
+        <section class="visit">
+            <div class="visit__wrapper">
+                <h3>ЗАИНТЕРЕСОВАЛИСЬ?</h3>
+                <p>УКАЖИТЕ ПРЕДПОЛАГАЕМЫЕ ДАТЫ ПОЕЗДКИ, И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДОЖЕНИЯ ГОСТИНИЦ В СЕДОНЕ</p>
+                <form action="#" target="blank">
+                    <button class="visit__button" type="button"> Найти гостиницу</button>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <p class="page-footer__hashtag">#VISITSEDONA</p>
+        <div class="page-footer__icons footer-icons">
+            <a class="footer-icons__item">
+                <img src="img/icon-twitter.svg" alt="twitter logo">
+            </a>
+            <a class="footer-icons__item">
+                <img src="img/icon-facebook.svg" alt="facebook logo">
+            </a>
+            <a class="footer-icons__item">
+                <img src="img/icon-youtube.svg" alt="youtube logo">
+
+            </a>
+        </div>
+        <p class="page-footer__develop"> РАЗРАБОТАНО
+            <img src="img/htmlacademylogo.svg" alt="htmlacademy logo">
+        </p>
+
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
 </html>
