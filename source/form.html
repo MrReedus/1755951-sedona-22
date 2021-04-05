@@ -40,10 +40,9 @@
             </div>
         </div>
 
-
         <form class="feedback" action="https://echo.htmlacademy.ru" method="post">
-            <fieldset class="feedback__section">
-                <legend class="feedback__section-title">Представьтесь</legend>
+            <fieldset class="feedback__section feedback-section">
+                <legend class="feedback-section__title">Представьтесь</legend>
                 <div class="textbox">
                     <label class="textbox__title" for="firstname">Имя<sup>*</sup></label>
                     <input class="textbox__content" type="text" name="firstname" id="firstname" placeholder="Петр">
@@ -58,47 +57,40 @@
                 </div>
             </fieldset>
 
-
-
-
-            <fieldset class="feedback__section">
-                <legend class=" feedback__section-title">Контактная информация:</legend>
-                <div class="feedback__section-body">
+            <fieldset class="feedback__section feedback-section">
+                <legend class=" feedback-section__title">Контактная информация:</legend>
+                <div class="feedback-section__body">
                     <div class="textbox">
-                        <label class="textbox__title" for="phone">Контактный телефон<sup>*</sup>:</label><br>
+                        <label class="textbox__title" for="phone">Контактный телефон<sup>*</sup>:</label>
                         <input class="textbox__content" type="tel" name="phone" id="phone" placeholder="контактный телефон">
                     </div>
                     <div class="textbox">
-                        <label class="textbox__title" for="email">Электронная почта<sup>*</sup>:</label><br>
+                        <label class="textbox__title" for="email">Электронная почта<sup>*</sup>:</label>
                         <input class="textbox__content" type="email" name="email" id="email" placeholder="Введите e-mail">
                     </div>
                 </div>
             </fieldset>
 
-
-
-            <fieldset class="feedback__section">
-                <legend class="feedback__section-title feedback__section-title--left">Ваше Общее впечатление:</legend>
+            <fieldset class="feedback__section feedback-section">
+                <legend class="feedback-section__title feedback-section__title--left">Ваше Общее впечатление:</legend>
                 <div class="toggle-set toggle-set--top">
-                    <div class="toggle-set__item ">
+                    <div class="toggle-set__item">
                         <input class="toggle-set__input" type="radio" name="impression" id="value1" value="Скорее положительное" checked>
                         <label class="toggle-set__title" for="value1">Скорее положительное</label>
                     </div>
-                    <div class="toggle-set__item ">
+                    <div class="toggle-set__item">
                         <input class="toggle-set__input" type="radio" name="impression" id="value2" value="Скорее отрицательное">
                         <label class="toggle-set__title" for="value2">Скорее отрицательное</label>
                     </div>
-                    <div class="toggle-set__item ">
+                    <div class="toggle-set__item">
                         <input class="toggle-set__input" type="radio" name="impression" id="value3" value="Затрудняюсь ответить">
                         <label class="toggle-set__title" for="value3">Затрудняюсь ответить</label>
                     </div>
                 </div>
             </fieldset>
 
-
-
-            <fieldset class="feedback__section">
-                <legend class="feedback__section-title">Посещённые достопримечательности:</legend>
+            <fieldset class="feedback__section feedback-section">
+                <legend class="feedback-section__title">Посещённые достопримечательности:</legend>
                 <div class="checkbox-set">
                     <div class="checkbox-set__item"> <input class="checkbox-set__input" type="checkbox" name="Мост Дьявола" id="check1" checked>
                         <label class="checkbox-set__title" for="check1">Мост Дьявола</label></div>
@@ -111,17 +103,17 @@
                 </div>
             </fieldset>
 
-            <fieldset class="feedback__section ">
-                <legend class="feedback__section-title">Опишите свои эмоции:</legend>
-                <div class="textbox ">
+            <fieldset class="feedback__section feedback-section">
+                <legend class="feedback-section__title">Опишите свои эмоции:</legend>
+                <div class="textbox">
                     <textarea class="textbox__input" name="emotions" id="emotions" placeholder="Опишите подробно все свои восторги ">
                 </textarea>
                 </div>
             </fieldset>
 
-            <fieldset class="feedback__section">
-                <div class="feedback__section-body">
-                    <input class="button" type="submit" value="Отправить отзыв">
+            <fieldset class="feedback__section feedback-section">
+                <div class="feedback-section__body">
+                    <button class="feedback-section__button" type="submit">Отправить отзыв</button>
                 </div>
             </fieldset>
         </form>
